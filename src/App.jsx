@@ -1,11 +1,12 @@
+import Hero from './Hero';
+import Projects from './Projects';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-    <h2 className="text-red-600">Hellow World</h2>
-    </>
-  )
-}
-
-export default App
+    <main>
+      <Hero />
+      <Projects />
+    </main>
+  );
+};
+export default App;
